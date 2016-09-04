@@ -1,0 +1,15 @@
+BroadcastIP = "255.255.255.255"
+UDPPort = "9"
+BroadcastInterface = ""
+
+[machines]
+
+	[machines.lassepc]
+	name = "Lasse-PC"
+	ip = "192.168.1.2"
+	mac = "10:c3:7b:6b:f8:f2"
+
+	[machines.anotherpc]
+	name = "Some Name"
+	ip = "127.0.0.1"
+	mac = "11:c3:7b:6b:f8:f2"
